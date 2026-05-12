@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" pages="7">
+  <diagram name="Airport" id="airtravel-airport">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="ap1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="SVO — Шереметьево" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap1t" parent="ap1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 1&lt;br&gt;iata_code = SVO&lt;br&gt;city = Москва, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="DME — Домодедово" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap2t" parent="ap2" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 2&lt;br&gt;iata_code = DME&lt;br&gt;city = Москва, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="VKO — Внуково" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap3t" parent="ap3" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 3&lt;br&gt;iata_code = VKO&lt;br&gt;city = Москва, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="LED — Пулково" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap4t" parent="ap4" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 4&lt;br&gt;iata_code = LED&lt;br&gt;city = Санкт-Петербург, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="AER — Сочи (Адлер)" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap5t" parent="ap5" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 5&lt;br&gt;iata_code = AER&lt;br&gt;city = Сочи, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="KZN — Казань" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap6t" parent="ap6" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 6&lt;br&gt;iata_code = KZN&lt;br&gt;city = Казань, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="SVX — Кольцово" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap7t" parent="ap7" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 7&lt;br&gt;iata_code = SVX&lt;br&gt;city = Екатеринбург, country = Россия&lt;br&gt;timezone = Asia/Yekaterinburg" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="OVB — Толмачёво" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap8t" parent="ap8" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 8&lt;br&gt;iata_code = OVB&lt;br&gt;city = Новосибирск, country = Россия&lt;br&gt;timezone = Asia/Novosibirsk" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="IKT — Иркутск" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap9t" parent="ap9" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 9&lt;br&gt;iata_code = IKT&lt;br&gt;city = Иркутск, country = Россия&lt;br&gt;timezone = Asia/Irkutsk" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="VVO — Кневичи (Владивосток)" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap10t" parent="ap10" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 10&lt;br&gt;iata_code = VVO&lt;br&gt;city = Владивосток, country = Россия&lt;br&gt;timezone = Asia/Vladivostok" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="UFA — Уфа" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap11t" parent="ap11" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 11&lt;br&gt;iata_code = UFA&lt;br&gt;city = Уфа, country = Россия&lt;br&gt;timezone = Asia/Yekaterinburg" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ap12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;html=1;" value="ROV — Платов" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="ap12t" parent="ap12" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 12&lt;br&gt;iata_code = ROV&lt;br&gt;city = Ростов-на-Дону, country = Россия&lt;br&gt;timezone = Europe/Moscow" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Airline" id="airtravel-airline">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="al1" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Аэрофлот" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="al1t" parent="al1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 1&lt;br&gt;iata_code = SU&lt;br&gt;country = Россия&lt;br&gt;founded_year = 1923" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="S7 Airlines" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="al2t" parent="al2" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 2&lt;br&gt;iata_code = S7&lt;br&gt;country = Россия&lt;br&gt;founded_year = 1992" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al3" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Уральские авиалинии" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="al3t" parent="al3" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 3&lt;br&gt;iata_code = U6&lt;br&gt;country = Россия&lt;br&gt;founded_year = 1993" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al4" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Победа" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="al4t" parent="al4" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 4&lt;br&gt;iata_code = DP&lt;br&gt;country = Россия&lt;br&gt;founded_year = 2014" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al5" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Россия" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="al5t" parent="al5" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 5&lt;br&gt;iata_code = FV&lt;br&gt;country = Россия&lt;br&gt;founded_year = 1934" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Nordwind Airlines" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="al6t" parent="al6" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 6&lt;br&gt;iata_code = N4&lt;br&gt;country = Россия&lt;br&gt;founded_year = 2008" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Lufthansa" vertex="1">
+          <mxGeometry height="130" width="270" x="40" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="al7t" parent="al7" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 7&lt;br&gt;iata_code = LH&lt;br&gt;country = Германия&lt;br&gt;founded_year = 1953" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al8" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Turkish Airlines" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="al8t" parent="al8" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 8&lt;br&gt;iata_code = TK&lt;br&gt;country = Турция&lt;br&gt;founded_year = 1933" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al9" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Emirates" vertex="1">
+          <mxGeometry height="130" width="270" x="660" y="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="al9t" parent="al9" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 9&lt;br&gt;iata_code = EK&lt;br&gt;country = ОАЭ&lt;br&gt;founded_year = 1985" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="al10" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Qatar Airways" vertex="1">
+          <mxGeometry height="130" width="270" x="350" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="al10t" parent="al10" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 10&lt;br&gt;iata_code = QR&lt;br&gt;country = Катар&lt;br&gt;founded_year = 1993" vertex="1">
+          <mxGeometry height="100" width="270" y="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="City" id="airtravel-city">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="ct1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Москва" vertex="1">
+          <mxGeometry height="110" width="270" x="40" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct1t" parent="ct1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 1&lt;br&gt;country = Россия&lt;br&gt;population_thou = 12700" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Санкт-Петербург" vertex="1">
+          <mxGeometry height="110" width="270" x="350" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct2t" parent="ct2" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 2&lt;br&gt;country = Россия&lt;br&gt;population_thou = 5600" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Сочи" vertex="1">
+          <mxGeometry height="110" width="270" x="660" y="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct3t" parent="ct3" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 3&lt;br&gt;country = Россия&lt;br&gt;population_thou = 440" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Казань" vertex="1">
+          <mxGeometry height="110" width="270" x="40" y="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct4t" parent="ct4" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 4&lt;br&gt;country = Россия&lt;br&gt;population_thou = 1300" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Екатеринбург" vertex="1">
+          <mxGeometry height="110" width="270" x="350" y="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct5t" parent="ct5" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 5&lt;br&gt;country = Россия&lt;br&gt;population_thou = 1540" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct6" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Новосибирск" vertex="1">
+          <mxGeometry height="110" width="270" x="660" y="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct6t" parent="ct6" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 6&lt;br&gt;country = Россия&lt;br&gt;population_thou = 1640" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct7" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Иркутск" vertex="1">
+          <mxGeometry height="110" width="270" x="40" y="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct7t" parent="ct7" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 7&lt;br&gt;country = Россия&lt;br&gt;population_thou = 660" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct8" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Владивосток" vertex="1">
+          <mxGeometry height="110" width="270" x="350" y="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct8t" parent="ct8" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 8&lt;br&gt;country = Россия&lt;br&gt;population_thou = 610" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct9" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Уфа" vertex="1">
+          <mxGeometry height="110" width="270" x="660" y="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct9t" parent="ct9" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 9&lt;br&gt;country = Россия&lt;br&gt;population_thou = 1170" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct10" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Ростов-на-Дону" vertex="1">
+          <mxGeometry height="110" width="270" x="40" y="510" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct10t" parent="ct10" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 10&lt;br&gt;country = Россия&lt;br&gt;population_thou = 1150" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ct11" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;html=1;" value="Дубай" vertex="1">
+          <mxGeometry height="110" width="270" x="350" y="510" as="geometry"/>
+        </mxCell>
+        <mxCell id="ct11t" parent="ct11" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=8;verticalAlign=top;" value="id = 11&lt;br&gt;country = ОАЭ&lt;br&gt;population_thou = 3400" vertex="1">
+          <mxGeometry height="80" width="270" y="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Flight" id="airtravel-flight">
+    <mxGraphModel dx="2200" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1850" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="f-svo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVO" vertex="1">
+          <mxGeometry height="55" width="170" x="420" y="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-svot" parent="f-svo" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Шереметьево, Москва" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-dme" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="DME" vertex="1">
+          <mxGeometry height="55" width="170" x="420" y="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-dmet" parent="f-dme" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Домодедово, Москва" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-vko" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VKO" vertex="1">
+          <mxGeometry height="55" width="170" x="420" y="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-vkot" parent="f-vko" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Внуково, Москва" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-led" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="LED" vertex="1">
+          <mxGeometry height="55" width="170" x="80" y="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-ledt" parent="f-led" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Пулково, Санкт-Петербург" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-rov" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="ROV" vertex="1">
+          <mxGeometry height="55" width="170" x="80" y="390" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-rovt" parent="f-rov" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Платов, Ростов-на-Дону" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-aer" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="AER" vertex="1">
+          <mxGeometry height="55" width="170" x="80" y="590" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-aert" parent="f-aer" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Сочи (Адлер), Сочи" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-kzn" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="KZN" vertex="1">
+          <mxGeometry height="55" width="170" x="680" y="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-kznt" parent="f-kzn" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Казань, Казань" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-ufa" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="UFA" vertex="1">
+          <mxGeometry height="55" width="170" x="760" y="430" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-ufat" parent="f-ufa" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Уфа, Уфа" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-svx" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVX" vertex="1">
+          <mxGeometry height="55" width="170" x="940" y="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-svxt" parent="f-svx" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Кольцово, Екатеринбург" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-ovb" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="OVB" vertex="1">
+          <mxGeometry height="55" width="170" x="1180" y="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-ovbt" parent="f-ovb" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Толмачёво, Новосибирск" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-ikt" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="IKT" vertex="1">
+          <mxGeometry height="55" width="170" x="1410" y="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-iktt" parent="f-ikt" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Иркутск, Иркутск" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-vvo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VVO" vertex="1">
+          <mxGeometry height="55" width="170" x="1640" y="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-vvot" parent="f-vvo" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="Кневичи, Владивосток" vertex="1">
+          <mxGeometry height="30" width="170" y="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f-e1" edge="1" parent="1" source="f-svo" target="f-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU0020: airline_id=1, 75мин, 635км, 4500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e2" edge="1" parent="1" source="f-led" target="f-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU0024: airline_id=1, 75мин, 635км, 4800руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e3" edge="1" parent="1" source="f-svo" target="f-kzn" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU1140: airline_id=1, 100мин, 1350км, 6500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e4" edge="1" parent="1" source="f-svo" target="f-aer" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU1260: airline_id=1, 135мин, 1414км, 7200руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e5" edge="1" parent="1" source="f-svo" target="f-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU1472: airline_id=1, 135мин, 2044км, 9800руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e6" edge="1" parent="1" source="f-svo" target="f-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU1520: airline_id=1, 230мин, 2812км, 12000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e7" edge="1" parent="1" source="f-svo" target="f-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#6c8ebf;" value="[Flight] SU1710: airline_id=1, 480мин, 6430км, 18000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-e8" edge="1" parent="1" source="f-dme" target="f-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70011: airline_id=2, 135мин, 2044км, 8500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e9" edge="1" parent="1" source="f-dme" target="f-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70015: airline_id=2, 230мин, 2812км, 11000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e10" edge="1" parent="1" source="f-dme" target="f-ikt" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70031: airline_id=2, 355мин, 4215км, 15000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e11" edge="1" parent="1" source="f-dme" target="f-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70061: airline_id=2, 480мин, 6430км, 17500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e12" edge="1" parent="1" source="f-dme" target="f-kzn" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70071: airline_id=2, 100мин, 1350км, 7000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-e13" edge="1" parent="1" source="f-svx" target="f-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" value="[Flight] U60271: airline_id=3, 200мин, 1820км, 9000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e14" edge="1" parent="1" source="f-ovb" target="f-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" value="[Flight] U60272: airline_id=3, 200мин, 1820км, 9000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e15" edge="1" parent="1" source="f-svx" target="f-ufa" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" value="[Flight] U60311: airline_id=3, 120мин, 1100км, 7500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e16" edge="1" parent="1" source="f-ufa" target="f-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" value="[Flight] U60312: airline_id=3, 120мин, 1100км, 7500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e17" edge="1" parent="1" source="f-svx" target="f-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" value="[Flight] U60411: airline_id=3, 135мин, 2044км, 8000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-e18" edge="1" parent="1" source="f-vko" target="f-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" value="[Flight] DP0141: airline_id=4, 75мин, 635км, 3200руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e19" edge="1" parent="1" source="f-led" target="f-vko" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" value="[Flight] DP0142: airline_id=4, 75мин, 635км, 3200руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e20" edge="1" parent="1" source="f-vko" target="f-kzn" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" value="[Flight] DP0155: airline_id=4, 130мин, 1350км, 4800руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e21" edge="1" parent="1" source="f-vko" target="f-rov" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" value="[Flight] DP0198: airline_id=4, 100мин, 980км, 4000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-e22" edge="1" parent="1" source="f-led" target="f-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#9673a6;fontColor=#9673a6;" value="[Flight] FV0170: airline_id=5, 75мин, 635км, 5000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e23" edge="1" parent="1" source="f-led" target="f-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#9673a6;fontColor=#9673a6;" value="[Flight] FV0321: airline_id=5, 175мин, 2400км, 10500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-e24" edge="1" parent="1" source="f-ovb" target="f-ikt" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70250: airline_id=2, 165мин, 1820км, 10000руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="f-e25" edge="1" parent="1" source="f-ikt" target="f-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Flight] S70255: airline_id=2, 130мин, 1600км, 9500руб"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="f-legend" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Легенда цветов рейсов:" vertex="1">
+          <mxGeometry height="140" width="360" x="420" y="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="f-legend-t" parent="f-legend" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="синий — SU / Аэрофлот&lt;br&gt;зелёный — S7 / S7 Airlines&lt;br&gt;жёлтый — U6 / Уральские авиалинии&lt;br&gt;красный — DP / Победа&lt;br&gt;фиолетовый — FV / Россия" vertex="1">
+          <mxGeometry height="115" width="360" y="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Operates" id="airtravel-operates">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1050" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="op-su" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SU — Аэрофлот" vertex="1"><mxGeometry height="50" width="200" x="60" y="60" as="geometry"/></mxCell>
+        <mxCell id="op-s7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="S7 — S7 Airlines" vertex="1"><mxGeometry height="50" width="200" x="60" y="140" as="geometry"/></mxCell>
+        <mxCell id="op-u6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="U6 — Уральские авиалинии" vertex="1"><mxGeometry height="50" width="200" x="60" y="220" as="geometry"/></mxCell>
+        <mxCell id="op-dp" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="DP — Победа" vertex="1"><mxGeometry height="50" width="200" x="60" y="300" as="geometry"/></mxCell>
+        <mxCell id="op-fv" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="FV — Россия" vertex="1"><mxGeometry height="50" width="200" x="60" y="380" as="geometry"/></mxCell>
+        <mxCell id="op-lh" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="LH — Lufthansa" vertex="1"><mxGeometry height="50" width="200" x="60" y="460" as="geometry"/></mxCell>
+        <mxCell id="op-tk" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="TK — Turkish Airlines" vertex="1"><mxGeometry height="50" width="200" x="60" y="540" as="geometry"/></mxCell>
+        <mxCell id="op-ek" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;html=1;" value="EK — Emirates" vertex="1"><mxGeometry height="50" width="200" x="60" y="620" as="geometry"/></mxCell>
+
+        <mxCell id="op-svo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVO — Шереметьево" vertex="1"><mxGeometry height="50" width="220" x="670" y="90" as="geometry"/></mxCell>
+        <mxCell id="op-led" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="LED — Пулково" vertex="1"><mxGeometry height="50" width="220" x="670" y="190" as="geometry"/></mxCell>
+        <mxCell id="op-svx" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVX — Кольцово" vertex="1"><mxGeometry height="50" width="220" x="670" y="290" as="geometry"/></mxCell>
+        <mxCell id="op-dme" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="DME — Домодедово" vertex="1"><mxGeometry height="50" width="220" x="670" y="390" as="geometry"/></mxCell>
+        <mxCell id="op-ovb" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="OVB — Толмачёво" vertex="1"><mxGeometry height="50" width="220" x="670" y="490" as="geometry"/></mxCell>
+        <mxCell id="op-vko" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VKO — Внуково" vertex="1"><mxGeometry height="50" width="220" x="670" y="590" as="geometry"/></mxCell>
+
+        <mxCell id="op-e1" edge="1" parent="1" source="op-su" target="op-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=1956, is_hub=1, weekly=280"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e2" edge="1" parent="1" source="op-su" target="op-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=2000, is_hub=0, weekly=42"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e3" edge="1" parent="1" source="op-su" target="op-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=2005, is_hub=0, weekly=28"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="op-e4" edge="1" parent="1" source="op-s7" target="op-dme" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=1992, is_hub=1, weekly=175"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e5" edge="1" parent="1" source="op-s7" target="op-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=2003, is_hub=1, weekly=120"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="op-e6" edge="1" parent="1" source="op-u6" target="op-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=1993, is_hub=1, weekly=210"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="op-e7" edge="1" parent="1" source="op-dp" target="op-vko" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=2014, is_hub=1, weekly=140"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e8" edge="1" parent="1" source="op-dp" target="op-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=1995, is_hub=0, weekly=35"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="op-e9" edge="1" parent="1" source="op-fv" target="op-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;strokeWidth=2;" value="[Operates] since=1934, is_hub=1, weekly=190"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e10" edge="1" parent="1" source="op-lh" target="op-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=2010, is_hub=0, weekly=14"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e11" edge="1" parent="1" source="op-tk" target="op-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=2008, is_hub=0, weekly=21"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="op-e12" edge="1" parent="1" source="op-ek" target="op-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#666666;dashed=1;" value="[Operates] since=2014, is_hub=0, weekly=14"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="op-legend" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Легенда:" vertex="1">
+          <mxGeometry height="70" width="290" x="60" y="720" as="geometry"/>
+        </mxCell>
+        <mxCell id="op-legend-t" parent="op-legend" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="зелёная сплошная — is_hub=1&lt;br&gt;серая пунктирная — is_hub=0" vertex="1">
+          <mxGeometry height="45" width="290" y="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="LocatedIn" id="airtravel-locatedin">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="li-svo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVO — Шереметьево" vertex="1"><mxGeometry height="50" width="220" x="60" y="40" as="geometry"/></mxCell>
+        <mxCell id="li-dme" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="DME — Домодедово" vertex="1"><mxGeometry height="50" width="220" x="60" y="105" as="geometry"/></mxCell>
+        <mxCell id="li-vko" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VKO — Внуково" vertex="1"><mxGeometry height="50" width="220" x="60" y="170" as="geometry"/></mxCell>
+        <mxCell id="li-led" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="LED — Пулково" vertex="1"><mxGeometry height="50" width="220" x="60" y="235" as="geometry"/></mxCell>
+        <mxCell id="li-aer" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="AER — Сочи (Адлер)" vertex="1"><mxGeometry height="50" width="220" x="60" y="300" as="geometry"/></mxCell>
+        <mxCell id="li-kzn" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="KZN — Казань" vertex="1"><mxGeometry height="50" width="220" x="60" y="365" as="geometry"/></mxCell>
+        <mxCell id="li-svx" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVX — Кольцово" vertex="1"><mxGeometry height="50" width="220" x="60" y="430" as="geometry"/></mxCell>
+        <mxCell id="li-ovb" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="OVB — Толмачёво" vertex="1"><mxGeometry height="50" width="220" x="60" y="495" as="geometry"/></mxCell>
+        <mxCell id="li-ikt" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="IKT — Иркутск" vertex="1"><mxGeometry height="50" width="220" x="60" y="560" as="geometry"/></mxCell>
+        <mxCell id="li-vvo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VVO — Кневичи" vertex="1"><mxGeometry height="50" width="220" x="60" y="625" as="geometry"/></mxCell>
+        <mxCell id="li-ufa" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="UFA — Уфа" vertex="1"><mxGeometry height="50" width="220" x="60" y="690" as="geometry"/></mxCell>
+        <mxCell id="li-rov" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="ROV — Платов" vertex="1"><mxGeometry height="50" width="220" x="60" y="755" as="geometry"/></mxCell>
+
+        <mxCell id="li-msk" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Москва" vertex="1"><mxGeometry height="50" width="230" x="710" y="105" as="geometry"/></mxCell>
+        <mxCell id="li-spb" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Санкт-Петербург" vertex="1"><mxGeometry height="50" width="230" x="710" y="235" as="geometry"/></mxCell>
+        <mxCell id="li-sochi" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Сочи" vertex="1"><mxGeometry height="50" width="230" x="710" y="300" as="geometry"/></mxCell>
+        <mxCell id="li-kazan" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Казань" vertex="1"><mxGeometry height="50" width="230" x="710" y="365" as="geometry"/></mxCell>
+        <mxCell id="li-ekb" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Екатеринбург" vertex="1"><mxGeometry height="50" width="230" x="710" y="430" as="geometry"/></mxCell>
+        <mxCell id="li-nsk" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Новосибирск" vertex="1"><mxGeometry height="50" width="230" x="710" y="495" as="geometry"/></mxCell>
+        <mxCell id="li-irk" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Иркутск" vertex="1"><mxGeometry height="50" width="230" x="710" y="560" as="geometry"/></mxCell>
+        <mxCell id="li-vlad" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Владивосток" vertex="1"><mxGeometry height="50" width="230" x="710" y="625" as="geometry"/></mxCell>
+        <mxCell id="li-ufa-city" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Уфа" vertex="1"><mxGeometry height="50" width="230" x="710" y="690" as="geometry"/></mxCell>
+        <mxCell id="li-rostov" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Ростов-на-Дону" vertex="1"><mxGeometry height="50" width="230" x="710" y="755" as="geometry"/></mxCell>
+
+        <mxCell id="li-e1" edge="1" parent="1" source="li-svo" target="li-msk" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 29 км; Аэроэкспресс, автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e2" edge="1" parent="1" source="li-dme" target="li-msk" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 22 км; Аэроэкспресс, автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e3" edge="1" parent="1" source="li-vko" target="li-msk" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 28 км; Аэроэкспресс, автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e4" edge="1" parent="1" source="li-led" target="li-spb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 17 км; Метро (линия 5), автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e5" edge="1" parent="1" source="li-aer" target="li-sochi" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 30 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e6" edge="1" parent="1" source="li-kzn" target="li-kazan" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 26 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e7" edge="1" parent="1" source="li-svx" target="li-ekb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 16 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e8" edge="1" parent="1" source="li-ovb" target="li-nsk" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 18 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e9" edge="1" parent="1" source="li-ikt" target="li-irk" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 7 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e10" edge="1" parent="1" source="li-vvo" target="li-vlad" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 44 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e11" edge="1" parent="1" source="li-ufa" target="li-ufa-city" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 30 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="li-e12" edge="1" parent="1" source="li-rov" target="li-rostov" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[LocatedIn] 30 км; Автобус, такси"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Connection" id="airtravel-connection">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="cn-svo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVO" vertex="1"><mxGeometry height="50" width="160" x="80" y="100" as="geometry"/></mxCell>
+        <mxCell id="cn-dme" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="DME" vertex="1"><mxGeometry height="50" width="160" x="80" y="250" as="geometry"/></mxCell>
+        <mxCell id="cn-led" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="LED" vertex="1"><mxGeometry height="50" width="160" x="80" y="400" as="geometry"/></mxCell>
+        <mxCell id="cn-kzn" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="KZN" vertex="1"><mxGeometry height="50" width="160" x="430" y="90" as="geometry"/></mxCell>
+        <mxCell id="cn-svx" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="SVX" vertex="1"><mxGeometry height="50" width="160" x="650" y="240" as="geometry"/></mxCell>
+        <mxCell id="cn-ufa" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="UFA" vertex="1"><mxGeometry height="50" width="160" x="650" y="390" as="geometry"/></mxCell>
+        <mxCell id="cn-ovb" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="OVB" vertex="1"><mxGeometry height="50" width="160" x="900" y="240" as="geometry"/></mxCell>
+        <mxCell id="cn-ikt" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="IKT" vertex="1"><mxGeometry height="50" width="160" x="1150" y="240" as="geometry"/></mxCell>
+        <mxCell id="cn-vvo" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;html=1;" value="VVO" vertex="1"><mxGeometry height="50" width="160" x="1400" y="240" as="geometry"/></mxCell>
+
+        <mxCell id="cn-e1" edge="1" parent="1" source="cn-svo" target="cn-led" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e2" edge="1" parent="1" source="cn-svo" target="cn-kzn" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e3" edge="1" parent="1" source="cn-svo" target="cn-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e4" edge="1" parent="1" source="cn-svo" target="cn-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;dashed=1;strokeWidth=2;" value="[Connection] 90мин, TC=1, international"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e5" edge="1" parent="1" source="cn-svo" target="cn-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;dashed=1;strokeWidth=2;" value="[Connection] 90мин, TC=1, international"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="cn-e6" edge="1" parent="1" source="cn-dme" target="cn-kzn" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e7" edge="1" parent="1" source="cn-dme" target="cn-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;dashed=1;strokeWidth=2;" value="[Connection] 75мин, TC=1, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e8" edge="1" parent="1" source="cn-dme" target="cn-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;dashed=1;strokeWidth=2;" value="[Connection] 90мин, TC=1, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="cn-e9" edge="1" parent="1" source="cn-ovb" target="cn-ikt" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 45мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e10" edge="1" parent="1" source="cn-ovb" target="cn-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 45мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e11" edge="1" parent="1" source="cn-svx" target="cn-ovb" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 50мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e12" edge="1" parent="1" source="cn-svx" target="cn-ufa" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e13" edge="1" parent="1" source="cn-led" target="cn-svo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 60мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e14" edge="1" parent="1" source="cn-led" target="cn-svx" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;dashed=1;strokeWidth=2;" value="[Connection] 75мин, TC=1, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="cn-e15" edge="1" parent="1" source="cn-ikt" target="cn-vvo" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" value="[Connection] 40мин, TC=0, domestic"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="cn-legend" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Легенда:" vertex="1">
+          <mxGeometry height="75" width="330" x="80" y="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="cn-legend-t" parent="cn-legend" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;" value="зелёная сплошная — terminal_change=0&lt;br&gt;жёлтая пунктирная — terminal_change=1" vertex="1">
+          <mxGeometry height="50" width="330" y="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
